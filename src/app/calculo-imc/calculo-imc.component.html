@@ -1,0 +1,36 @@
+<body>
+    <main class="main">
+        <div class="container">
+            <form class="form">
+                <legend>IMC</legend>
+                <label>Nome : {{nome}}</label>
+                <input type="text" id="txtTexto" [(ngModel)]="nome">
+                <label>{{nome}}</label>
+
+                <br />
+                <label>Genêro :</label>
+                <div class="radio-group">
+                    <div>
+                        <input type="radio" id="homem" name="genero" value="homem">
+                        <label for="homem">Masculino</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="mulher" name="genero" value="mulher">
+                        <label for="mulher">Feminino</label>
+                    </div>
+                </div>
+                <br />
+                <label>Peso :</label>
+                <input type="number" id="peso" [(ngModel)]="peso">
+                <h3>{{peso}}</h3>
+                <label>Altura (cm) :</label>
+                <input type="number" id="altura" [(ngModel)]="altura">
+                <h4>{{altura}}</h4>
+                <br />
+                <button class="submit" (click)=avaliacao()>Avaliar</button>
+                <br />
+                <textarea name="textarea" id="avaliacao" cols="40" rows="10"></textarea>
+            </form>
+        </div>
+    </main>
+</body>
