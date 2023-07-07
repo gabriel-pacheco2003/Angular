@@ -1,1 +1,6 @@
-<p>ng-style works!</p>
+<h1>Exemplo ngStyle</h1>
+<main class="main">
+    <button (click)="diminui()">Aumenta para a esquerda</button>
+    <div class="caixa" [ngStyle]="{'width':larguraStr}"></div>
+    <button (click)="aumenta()">Aumenta para a direita</button>
+</main>

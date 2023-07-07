@@ -1,0 +1,26 @@
+.main {
+    align-items: left;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    margin-top: 1%;
+    width: 30%;
+}
+
+.preto {
+    font-size: small;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    background-color: aquamarine;
+    border-radius: 20px;
+}
+
+.amarelo {
+    display: flex;
+    justify-content: center;
+    background-color: blueviolet;
+    border-radius: 20px;
+}
