@@ -1,0 +1,21 @@
+.linkSelected {
+    font-weight: bold;
+}
+
+a:link,
+a:visited {
+    display: flex;
+    background-color: beige;
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+a:hover,
+a:active {
+    transform: scale(1.2);
+    border-radius: 20px;
+}
